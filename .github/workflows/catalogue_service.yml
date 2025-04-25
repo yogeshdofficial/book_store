@@ -1,13 +1,13 @@
 name: Catalogue Service
 
 on:
-  push:
-    paths:
-      - catalogue/**
-    branches:
-      - "main"
-  pull_request:
-    branches: [main]
+  push
+  #   paths:
+  #     - catalogue/**
+  #   branches:
+  #     - "main"
+  # pull_request:
+  #   branches: [main]
 
 jobs:
   build:
